@@ -100,3 +100,12 @@ img {
     clip-path: polygon(50% 50%, 0 0, 100% 0, 100% 100%, 100% 100%, 100% 100%);
   }
 }
+
+.load-button {
+  margin: 0 auto;
+  display: none;
+}
+
+.load-button.shown {
+  display: block;
+}
